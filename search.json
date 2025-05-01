@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "My name is Nick Talati. I’m a software engineer with interests in math, physics, neuroscience, AI, and more."
+  },
+  {
+    "objectID": "posts/tc-circuits/index.html",
+    "href": "posts/tc-circuits/index.html",
+    "title": "Thalamocortical Circuits",
+    "section": "",
+    "text": "Modern science is hard. Humanity has spent millennia attempting to understand ourselves and the world around us. Each new advancement builds upon earlier discoveries, inheriting their abstractions and terminology. For someone outside a specific domain, reading a present-day research paper often feels impossible without descending into endless Wikipedia rabbit holes. This complexity is both a shame and a necessity: a shame because it makes it incredibly difficult for a layman to grasp where the forefront of research currently lies; a necessity because specialized jargon allows for significant compression of complex ideas. Try explaining the stock market to an alien without words like company or money. There’s a reason jargon exists.\nStill, I believe that restricting oneself to a sufficiently narrow topic can make even cutting-edge research accessible, fascinating and immensely rewarding. For the past couple months, driven by a longstanding fascination with the brains that have created this modern miracle of a world, I’ve been diving deep into a very specific topic in neuroscience: thalamocortical circuits. In this post, I’ll share a broad-strokes picture of what I – a technically inclined but neuroscientifically novice explorer – have discovered."
+  },
+  {
+    "objectID": "posts/tc-circuits/index.html#intro",
+    "href": "posts/tc-circuits/index.html#intro",
+    "title": "Thalamocortical Circuits",
+    "section": "",
+    "text": "Modern science is hard. Humanity has spent millennia attempting to understand ourselves and the world around us. Each new advancement builds upon earlier discoveries, inheriting their abstractions and terminology. For someone outside a specific domain, reading a present-day research paper often feels impossible without descending into endless Wikipedia rabbit holes. This complexity is both a shame and a necessity: a shame because it makes it incredibly difficult for a layman to grasp where the forefront of research currently lies; a necessity because specialized jargon allows for significant compression of complex ideas. Try explaining the stock market to an alien without words like company or money. There’s a reason jargon exists.\nStill, I believe that restricting oneself to a sufficiently narrow topic can make even cutting-edge research accessible, fascinating and immensely rewarding. For the past couple months, driven by a longstanding fascination with the brains that have created this modern miracle of a world, I’ve been diving deep into a very specific topic in neuroscience: thalamocortical circuits. In this post, I’ll share a broad-strokes picture of what I – a technically inclined but neuroscientifically novice explorer – have discovered."
+  },
+  {
+    "objectID": "posts/tc-circuits/index.html#background",
+    "href": "posts/tc-circuits/index.html#background",
+    "title": "Thalamocortical Circuits",
+    "section": "Background",
+    "text": "Background\nThe vast majority of sensory information – touch, sight, sound, and other modalities (but famously not smell) – passes through an egg-shaped organ about 4 cm (1.5 inches) long, situated near the base of the brain, called the thalamus. The thalamus is composed of many different substructures known as nuclei, but as a whole it acts as a relay station, processing signals before forwarding them to the cortex.\nThe cortex is the folded outer covering of the cerebrum, the familiar two-hemisphered, convoluted mass that most people envision when they hear the word “brain.” Most of the cortex – about two thirds – is hidden within internal folds. Unfolded, the total cortical area would roughly match that of a 50 cm (20 inch) pizza. Its thickness varies from region to region, between 1 and 4.5 mm (on average about 2.5 mm or 0.1 inch), and it is this remarkably thin sheet that performs most of the critical information processing in the human body.\nAbout 90% of the cortex is called the neocortex (“neo-” meaning “new”) so named because it is the most recently evolved region of the cortex. It is responsible for most of our higher-order cognitive processing, including sensory integration, judgement, reasoning, and voluntary motor actions. The neocortex is typically divided into six distinct layers, although these layers vary considerably in appearance and function across regions. The boundaries between layers are not always sharply defined, but they nonetheless have identifiable characteristics and roles (more on this later). The remaining 10% of the cortex, known as the allocortex, is characterized by fewer layers and includes crucial structures like the hippocampal formation, which is essential for memory. To clear up a potential point of confusion (that I at least had when first learning about the cortex): The allocortex is not situated atop or under the neocortex, but rather occupies different areas of the cortex than the neocortex. That is, if unfolded, the cortex is a 2D sheet. 90% of the area of this sheet is the neocortex. The remaining 10% is made of “islands” of allocortex. (Transitional regions forming the border between neo- and allo- regions are called the periallocortex.)\nIn the remainder of the post, I’ll describe the patterns of information exchange between the thalamus and these neocortical layers – the aforementioned “thalamocortical circuits.” Why this intermediate scale? At the microscopic level scientists model single-neuron ion channels and the protein kinematics governing neurotransmitter release; at the macroscopic level they study whole-brain networks connecting distant regions of the brain or connections between the central and peripheral nervous systems. It is my impression that research at the microscopic level is more easily directed, as there are many concrete questions to be answered. “What proteins are involved in a particular neuronal function?” “What are the roles of a particular protein?” “What are the properties of a particular neurotransmitter?” These questions may have very complex answers, but at least the questions themselves are relatively well-posed and independent. Not so when it comes to microcircuitry; the overarching questions are essentially “What do circuits between the thalamus and neocortical layers look like?” and “What do these circuits do?” Combined, “How do thalamocortical circuits work?” They are not easily decomposed into simpler, independent investigations. One could study the neuronal makeup of the different relevant components, or the patterns of connections between individual neurons. But it has become clear that the complete picture in answer to the above questions will be enormously complex; and I’ll note that this humble blog post has no intention of painting it – …"
+  },
+  {
+    "objectID": "posts/tc-circuits/index.html#signals-from-the-thalamus",
+    "href": "posts/tc-circuits/index.html#signals-from-the-thalamus",
+    "title": "Thalamocortical Circuits",
+    "section": "Signals from the Thalamus",
+    "text": "Signals from the Thalamus\nAfter receiving sensory information from the body, the thalamus relays that information to the neocortex. More precisely, neurons that are activated in the thalamus have axons1 that ultimately release neurotransmitters in the neocortex, causing neurons there to begin firing, and so on. A single neuron originating in the thalamus may have thousands of different release points (pre-synaptic terminals) within the neocortex. But that isn’t to say there’s no organization.\nIn the late 90s, a framework was introduced for classifying single-neuron thalamocortical connections. This labeled projections as either core-type or matrix-type. Core type signals are those that reliably forward specific sensory information to specific parts of the neocortex. Maybe you stub your left toe, and pain signals there are forwarded to the thalamus; core-type signals would carry them to the very specific part of your somatosensory cortex that corresponds to your left toe. Thus you’d easily be able to identify that it was your left toe needing attention, and not your right eye or knee.\nMatrix-type signals are famously harder to define; instead of relaying specific information to a specific part of the neocortex, they’re said to send “higher-order” information to a much larger area of the cortex. This may regulate broader behaviors or states of mind, like arousal. If you’re daydreaming during a presentation or meeting and the speaker says your name and suddenly you snap to attention and can see the slides with clarity – what’s actually happened? Your eyes were open before this moment, but you weren’t exactly seeing the slide – perhaps some matrix-type signals essential to keeping your whole neocortex “engaged” were on a smoke break.\nThis core/matrix framework is convenient for thinking about thalamic projections, and one I was really drawn to – I felt that it made sense and was very interpretable. Unfortunately, it isn’t very correct. Sherman and Usrey (Sherman and Usrey 2024) argue…"
+  },
+  {
+    "objectID": "posts/tc-circuits/index.html#footnotes",
+    "href": "posts/tc-circuits/index.html#footnotes",
+    "title": "Thalamocortical Circuits",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nlong, thin, root-like projections↩︎"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Blurry Bytes",
+    "section": "",
+    "text": "Welcome to my cluster.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThalamocortical Circuits\n\n\n\nneuroscience\n\ncircuits\n\n\n\nA deep dive into thalamocortical circuits.\n\n\n\n\n\nMay 1, 2025\n\n\n\n\n\nNo matching items"
+  }
+]
