@@ -20,6 +20,5 @@ format:
     footnotes-hover: true
     citations-hover: true
     code-copy: true
-    clean-url: true
 bibliography: bib/refs.bib
 csl: styles/chicago-author-date.csl
