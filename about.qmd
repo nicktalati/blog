@@ -1,0 +1,5 @@
+---
+title: "About"
+---
+
+My name is Nick Talati. I'm a software engineer with interests in math, physics, neuroscience, AI, and more.

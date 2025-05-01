@@ -1,0 +1,10 @@
+---
+title: "Blurry Bytes"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+---
+
+Welcome to my cluster.

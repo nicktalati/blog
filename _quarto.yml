@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Blurry Bytes"
+  site-url: "https://nicktalati.github.io/blog"
+  favicon: images/favicon.png
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/nicktalati/blog
+  page-footer:
+    center: "© 2025 Nick Talati"
+
+format:
+  html:
+    theme: cosmo
+    footnotes-hover: true
+    citations-hover: true
+    code-copy: true
+    clean-url: true
+bibliography: bib/refs.bib
+csl: styles/chicago-author-date.csl
